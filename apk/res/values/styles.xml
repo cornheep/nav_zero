@@ -1,0 +1,7 @@
+<resources>
+    <!-- If you want to override a style, wrap items in a <style> -->
+    <style name="InstagramNavFixOverlay" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+</resources>
+

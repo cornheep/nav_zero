@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.instagram.android.InstagramNavFixOverlay">
+
+    <!-- Declare minimum and target SDK versions -->
+    <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="36" />
+
+    <application android:hasCode="false" />
+
+    <!-- Overlay must be a direct child of <manifest>, not inside <application> -->
+    <overlay
+        android:targetPackage="com.instagram.android"
+        android:isStatic="true"
+        android:priority="999" />
+</manifest>
+
